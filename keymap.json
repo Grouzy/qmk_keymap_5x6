@@ -1,4 +1,6 @@
 {
+  "version": 1,
+  "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
   "keyboard": "handwired/dactyl_manuform/5x6",
   "keymap": "Grouzy",
   "layout": "LAYOUT_5x6",
@@ -58,16 +60,16 @@
       "KC_EQL",
       "MO(2)",
       "KC_SPC",
-      "KC_ENT",
-      "MO(1)",
-      "KC_TAB",
-      "KC_HOME",
-      "KC_END",
-      "KC_DEL",
       "KC_BSPC",
-      "KC_GRV",
-      "KC_LGUI",
-      "KC_LALT"
+      "MO(1)",
+      "KC_ESC",
+      "KC_LPRN",
+      "KC_RPRN",
+      "KC_ENT",
+      "KC_LBRC",
+      "KC_LCBR",
+      "KC_RCBR",
+      "KC_RBRC"
     ],
     [
       "KC_TILD",
